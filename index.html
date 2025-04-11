@@ -7,9 +7,14 @@
 </head>
 <body>
   <canvas id="gameCanvas" width="800" height="400"></canvas>
-  
+  <!--Creates the game area - a blank drawing surface-->
   <script src="js/input.js"></script>
   <script src="js/player.js"></script>
+  <script src="js/bot.js"></script>
   <script src="js/game.js"></script>
+  <!--Loads all of the code. Order is important:
+    * input.js sets up the code.
+    * player.js & bot.js define the classes.
+    * game.js runs the game using the classes.-->
 </body>
 </html>
