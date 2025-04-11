@@ -1,3 +1,32 @@
-.DS_Store
-.env
+# === VS Code ===
+.vscode/
+
+# === Logs ===
 *.log
+
+# === OS/System Files ===
+.DS_Store      # macOS (safe to keep for cross-platform)
+Thumbs.db      # Windows (safe to keep for cross-platform)
+
+# === Environment Variables ===
+.env
+
+# === Dependencies (if you use npm later) ===
+node_modules/
+
+# === Build / Output Folders (future-proofing) ===
+dist/
+build/
+
+# === Temporary / Backup Files ===
+*.tmp
+*.bak
+*.swp
+*~
+
+# === Game Assets (ignore contents but keep folders) ===
+assets/images/*
+!assets/images/.gitkeep
+
+assets/audio/*
+!assets/audio/.gitkeep
